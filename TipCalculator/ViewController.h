@@ -13,12 +13,14 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *tipAmount;
-@property (weak, nonatomic) IBOutlet UIButton *calculateTip;
+@property (weak, nonatomic) IBOutlet UILabel *tipAmountLabel;
+//@property (weak, nonatomic) IBOutlet UIButton *calculateTipButton;//Not needed
 @property (weak, nonatomic) IBOutlet UITextField *billAmountTextField;
-@property (weak, nonatomic) IBOutlet UITextField *tipAmountLabel;
+@property (weak, nonatomic) IBOutlet UITextField *tipAmountTextField;
+
 @property NSInteger cost;
 @property NSInteger tipPercent;
+
 @property TipModel *tipModel;
 
 @end

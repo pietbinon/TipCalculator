@@ -14,11 +14,9 @@
 
 - (NSString *) calculateTip: (NSString *) cost tipPercent: (NSString *)tipPercent {
     
-    float tipDecimal = [tipPercent floatValue]/100;
-    
+    float tipDecimal = [tipPercent floatValue] / 100;
     NSNumberFormatter *numberFormatter = [NSNumberFormatter new];
-    [numberFormatter setNumberStyle: NSNumberFormatterCurrencyISOCodeStyle];
-    
+    [numberFormatter setNumberStyle: NSNumberFormatterCurrencyISOCodeStyle];    
     NSString *number = [numberFormatter stringFromNumber: [NSNumber numberWithFloat: [cost floatValue] * tipDecimal]];
     return [NSString stringWithFormat: @"%@", number];
 }

@@ -76,9 +76,8 @@
                     </view>
                     <connections>
                         <outlet property="billAmountTextField" destination="A4U-BU-ukJ" id="nWP-kX-Dxj"/>
-                        <outlet property="calculateTip" destination="IlO-6q-oFf" id="HqX-gW-t4g"/>
-                        <outlet property="tipAmount" destination="1I2-y4-Htm" id="GdA-OK-4vn"/>
-                        <outlet property="tipAmountLabel" destination="FOx-Bz-Ey5" id="ic8-Hr-mhf"/>
+                        <outlet property="tipAmountLabel" destination="1I2-y4-Htm" id="KQe-s0-hrJ"/>
+                        <outlet property="tipAmountTextField" destination="FOx-Bz-Ey5" id="nNV-X8-2oa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
